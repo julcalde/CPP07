@@ -1,4 +1,4 @@
-NAME =		identifier
+NAME =		templates
 
 CXX =		c++
 
