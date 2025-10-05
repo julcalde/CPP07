@@ -6,7 +6,7 @@
 /*   By: julcalde <julcalde@student.42heilbronn.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/05 17:18:13 by julcalde          #+#    #+#             */
-/*   Updated: 2025/10/05 18:29:20 by julcalde         ###   ########.fr       */
+/*   Updated: 2025/10/05 18:57:26 by julcalde         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -61,7 +61,7 @@ class Array
 		{
 			if (index >= _size)
 				throw std::exception();
-			return (_elements(index));
+			return (_elements[index]);
 		}
 	
 	// Subscript operator for const arrays (read only)
