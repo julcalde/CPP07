@@ -6,7 +6,7 @@
 /*   By: julcalde <julcalde@student.42heilbronn.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/05 16:53:51 by julcalde          #+#    #+#             */
-/*   Updated: 2025/10/05 17:12:33 by julcalde         ###   ########.fr       */
+/*   Updated: 2026/01/11 16:01:24 by julcalde         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -42,6 +42,7 @@ int main(void)
 
 	const int constIntArray[]= {0, 9, 21, 42, 1337};
 	std::cout << "\n\\---Test with const int array---\\\n" << std::endl;
+	// iter(constIntArray, 5, incrementMisc);
 	iter(constIntArray, 5, printMisc);
 
 // note: invalid inputs test should print nothing
